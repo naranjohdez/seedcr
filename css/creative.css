@@ -108,7 +108,16 @@ aside {
 .color5 {
     background-color: #FFFFFF;
 }
-
+.text-quote {
+    font-style: italic;
+}
+.text-rigth p{
+    text-align: right;
+    font-size: 14px;
+}
+.text-services {
+    text-align: justify;
+}
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
