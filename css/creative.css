@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #516C18;
 }
 
 h1,
@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #9B9F48;
+    background-color: #222;
 }
 
 .bg-dark {
@@ -94,19 +94,19 @@ aside {
 }
 
 .color1 {
-    background-color: #A2C743;
+    background-color: #BFBEBE;
 }
 .color2 {
-    background-color: #33965E;
+    background-color: #C0D74F;
 }
 .color3 {
-    background-color: #D36447;
+    background-color: #9AAC43;
 }
 .color4 {
-    background-color: #A1367E;
+    background-color: #fff;
 }
 .color5 {
-    background-color: #DDF59D;
+    background-color: #516C18;
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -118,7 +118,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #516C18;
 }
 
 .navbar-default .nav > li>a,
@@ -182,7 +182,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #516C18;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -298,7 +298,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: rgba(191,190,190,.9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -356,9 +356,9 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-    border-color: #fff;
+    border-color: #9AAC43;
     color: #222;
-    background-color: #fff;
+    background-color: #9AAC43;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -370,9 +370,9 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-    border-color: #ededed;
+    border-color: #516C18;
     color: #222;
-    background-color: #f2f2f2;
+    background-color: #516C18;
 }
 
 .btn-default:active,
@@ -423,9 +423,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #516C18;;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #516C18;;
 }
 
 .btn-primary:active,
@@ -496,5 +496,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #222;
+    webkit-tap-highlight-color: #516C18;
 }
