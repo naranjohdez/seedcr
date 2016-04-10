@@ -507,3 +507,25 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #516C18;
 }
+
+.text-team{
+    margin: 1%;
+    margin-top: 5%;
+     background-color: #222;
+     color: #BFBEBE;
+}
+.text-team p{
+    font-size: 14px;
+}
+.team-name{
+    color: #506C19;
+}
+.team-img{
+    margin: 1%;
+    margin-top: 5%;
+    }
+ .text-team:hover{
+    
+     background-color: #222;
+     color: #9AAC43;
+}
