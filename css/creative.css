@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #9B9F48;
+    color: #516C18;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -525,4 +525,11 @@ body {
 .team-name{
     
     color: #fff;
+}
+.Contact-icons{
+    color: #C4D951
+}
+.Contact-a{
+    
+    color: #222;
 }
