@@ -519,25 +519,14 @@ body {
      background-color: #506C19;
 }
 
-
-.text-team{
-    border-left: 200px;
-    border-color: #fff;
-    margin: 1%;
-     color: #fff;
-}
 .text-team p{
     font-size: 14px;
 }
+
 .team-name{
     color: #506C19;
 }
-.team-img{
-    margin: 1%;
-    margin-top: 5%;
-    }
- .text-team:hover{
 
-     background-color: #222;
-     color: #9AAC43;
+.team-row {
+    padding: 40px 0px;
 }
