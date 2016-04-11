@@ -118,6 +118,13 @@ aside {
 .text-services {
     text-align: justify;
 }
+.text-bold {
+    font-weight: bold;;
+}
+
+.center-row {
+    margin-left: 280px;
+}
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -525,7 +532,7 @@ body {
     margin-top: 5%;
     }
  .text-team:hover{
-    
+
      background-color: #222;
      color: #9AAC43;
 }
