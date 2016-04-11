@@ -218,7 +218,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/home.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -512,14 +512,19 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #516C18;
+    -webkit-tap-highlight-color: #516C18;
 }
 
+.team-imgback{
+     background-color: #506C19;
+}
+
+
 .text-team{
+    border-left: 200px;
+    border-color: #fff;
     margin: 1%;
-    margin-top: 5%;
-     background-color: #222;
-     color: #BFBEBE;
+     color: #fff;
 }
 .text-team p{
     font-size: 14px;
