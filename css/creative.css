@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #9B9F48;
+    color: #516C18;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -318,6 +318,11 @@ header .header-content .header-content-inner p {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    border-radius: 50%;
+}
+
+.portfolio-box img {
+    opacity: 0.8;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -505,28 +510,54 @@ img::selection {
     color: #fff;
     background: 0 0;
 }
-
 img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
-
 body {
     -webkit-tap-highlight-color: #516C18;
 }
-
 .team-imgback{
-     background-color: #506C19;
+    background-color: #506C19;
 }
-
 .text-team p{
     font-size: 14px;
 }
-
 .team-name{
+    color: #fff;
+}
+.contact-icons{
+    color: #C4D951
+}
+.contact-a{
+    color: #222;
     color: #506C19;
 }
-
 .team-row {
     padding: 40px 0px;
+}
+.impact-section {
+    margin-top: 55px;
+}
+.impact-img-95 {
+    max-width: 95%;
+}
+.impact-img-70 {
+    max-width: 70%;
+}
+.impact-img {
+    max-width: 50%;
+}
+.portfolio-margin-text {
+    margin-top: 45px;
+}
+.btn-team {
+    float: right;
+    background: transparent;
+    color: #516C18;
+}
+.btn-team:hover {
+    color: #C4D951;
+    background: transparent;
+    cursor: pointer;
 }
