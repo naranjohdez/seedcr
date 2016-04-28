@@ -4,7 +4,7 @@ include 'session.inc';
 function getpass($u,$p)
 {
     
-  $link = mysqli_connect('localhost', 'jm57592253', 'Jomialfa0605')or die('No se pudo conectar: ' . mysql_error());
+  $link = mysqli_connect('107.180.58.44', 'jm57592253', 'Jomialfa0605')or die('No se pudo conectar: ' . mysql_error());
     
   $nombreConexion=mysqli_select_db($link,'seedAdmin') or die('No se pudo seleccionar la base de datos');
   $result = mysqli_query($link, 'call Sp_Logins("'.$u.'","'.$p.'")')
