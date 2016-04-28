@@ -7,7 +7,7 @@ function getpass($u,$p)
   $link = mysqli_connect('localhost', 'jm57592253', 'Jomialfa0605')or die('No se pudo conectar: ' . mysql_error());
     
   $nombreConexion=mysqli_select_db($link,'seedAdmin') or die('No se pudo seleccionar la base de datos');
-  $result = mysqli_query($link, 'call Sp_Logins("Es","Es")')
+  $result = mysqli_query($link, 'call Sp_Logins("'.$u.'","'.$p.'")')
   or die('1No se pudo sacar la base de datos');
 
   $largo = mysqli_num_rows($result);
@@ -30,7 +30,7 @@ function getpass($u,$p)
 function check_auth($u,$p) { 
     
     $p1 = crypt($p,"absifkjsdoaiownvasdv56ds45sdalf");
-    $pass = getpass($u,$p);
+    $pass = getpass($u,$p1);
     if (1 == $pass){
     return true; }
     else {
