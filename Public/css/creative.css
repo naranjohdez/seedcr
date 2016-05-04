@@ -562,7 +562,7 @@ body {
     max-width: 50%;
 }
 .portfolio-margin-text {
-    margin-top: 45px;
+    margin-top: 120px;
 }
 .btn-team {
     float: right;
@@ -574,15 +574,12 @@ body {
     background: transparent;
     cursor: pointer;
 }
-.IdiomChange{
+.idiomChange{
     color: rgba(255,255,255,.7);
     font-size: 19px;
-    
 }
-
-.IdiomChangeColl{
+.idiomChangeColl{
     color: rgba(255,255,255,.7);
     font-size: 15px;
     color: #516C18
-    
 }
