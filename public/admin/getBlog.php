@@ -11,6 +11,7 @@
 $i+0;
 while($row=mysqli_fetch_array($result))
 {
+           $restem['id'] = $row['ID'];
            $restem['nombreAutor'] = $row['NombreAutor'];
            $restem['pathImg'] = $row['PathImg'];
            $restem['cuerpo'] = $row['Cuerpo'];
