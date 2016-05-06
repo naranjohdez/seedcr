@@ -11,9 +11,10 @@ create procedure Sp_SetPass(
 	in pUser varchar(200),
     in pPass varchar(2000))
     begin
+    SET SQL_SAFE_UPDATES = 0;
 		update Usuarios
          set Pass = pPass 
-         where Usuario + pUser;
+         where Usuario = pUser;
     end
      //
  DELIMITER ;
