@@ -21,6 +21,7 @@ function inicio(){
     });
 }
 function SaveBlog(num){
+    $.post("InsertBlog.php",$('form')[num],function(data){alert(data);})
 }
 function DeleteBlog(num){
     alert(num);
