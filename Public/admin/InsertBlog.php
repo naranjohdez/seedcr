@@ -31,8 +31,8 @@
         
         $link = mysqli_connect('107.180.58.44', 'jm57592253', 'Jomialfa0605')or die('No se pudo conectar: ' . mysql_error());  
         $nombreConexion=mysqli_select_db($link,'seedAdmin') or die('No se pudo seleccionar la base de datos');
-        $result = mysqli_query($link, 'call Sp_DeleteBlog('.$_POST["pId"].",'".$_POST["pNombreAutor"]."','".$_POST["pIMG"]."','".$_POST["pExt"]."','".$_POST["pCuerpo"]."','".$_POST["pFecha"]."','".$_POST["pTitulo"]."',".'1'.')')
-        or die('1No se pudo sacar la base de datos');
+        $result = mysqli_query($link, 'call Sp_SaveBlog('.$_POST["pId"].",'".$_POST["pNombreAutor"]."','".$_POST["pIMG"]."','".$_POST["pExt"]."','".$_POST["pCuerpo"]."','".$_POST["pFecha"]."','".$_POST["pTitulo"]."',".'1'.')')
+        or die( 'call Sp_SaveBlog('.$_POST["pId"].",'".$_POST["pNombreAutor"]."','".$_POST["pIMG"]."','".$_POST["pExt"]."','".$_POST["pCuerpo"]."','".$_POST["pFecha"]."','".$_POST["pTitulo"]."',".'1'.')');
 
 
 

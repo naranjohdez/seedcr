@@ -11,8 +11,6 @@ function inicio(){
                 '<input type="text"  name="pNombreAutor" value ="'+arr[i].nombreAutor+'">'+
                 '<textarea name="pCuerpo" >'+arr[i].cuerpo+'</textarea>'+
                 '<input type="date" name="pFecha" value ="'+arr[i].fecha+'">'+
-                '<input type="text" readonly name="pExt" value ="'+arr[i].ExtenImg+'">'+
-                '<input type="text" readonly name="pIMG" value ="'+arr[i].pathImg+'">'+
                 '</form>'+
                 '<button onclick = "SaveBlog('+i+')">Guardar</button>'+
                 '<button onclick = "DeleteBlog('+i+')">Eliminar</button>');
@@ -21,8 +19,18 @@ function inicio(){
     });
 }
 function SaveBlog(num){
-    $.post("InsertBlog.php",$('form')[num],function(data){alert(data);})
+    $.post("InsertBlog.php",{
+        pId:arr[num].id,
+        pNombreAutor:$("form")[num][1].value,
+        pCuerpo:$("form")[num][2].value,
+        pFecha:$("form")[num][3].value,
+        pTitulo:$("form")[num][0].value,
+        pExt:arr[num].ExtenImg,
+        pIMG:arr[num].pathImg,
+    },function(data){location.reload();})
 }
 function DeleteBlog(num){
-    alert(num);
+    $.post("DeleteBlog.php",{
+        ID:arr[num].id}
+           ,function(data){location.reload();})
 }
