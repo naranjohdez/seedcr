@@ -309,6 +309,23 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
+.client-box {
+    position: relative;
+    max-width: 400px;
+    margin: 50px auto 0;
+}
+
+.client-box img {
+    width: 100%
+}
+
+@media(min-width:992px) {
+    .client-box {
+        margin: 20px auto 0;
+        align-content: center;
+    }
+}
+
 .portfolio-box {
     display: block;
     position: relative;
@@ -550,16 +567,16 @@ body {
     padding: 40px 0px;
 }
 .impact-section {
-    margin-top: 55px;
+    margin-top: auto;
 }
 .impact-img-95 {
     max-width: 95%;
 }
-.impact-img-70 {
-    max-width: 70%;
+.impact-img-80 {
+    max-width: 80%;
 }
 .impact-img {
-    max-width: 50%;
+    max-width: 100%;
 }
 .portfolio-margin-text {
     margin-top: 120px;
